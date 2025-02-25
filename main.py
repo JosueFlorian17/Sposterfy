@@ -3,8 +3,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import re
 import subprocess
 
-CLIENT_ID = "f9e28d4bd2564294a35bf0dec4052225"
-CLIENT_SECRET = "26417cfae02742c9a7a77deee06f93df"
+CLIENT_ID = "TU_CLIENT_ID"
+CLIENT_SECRET = "TU_CLIENT_SECRET"
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET))
 
@@ -63,5 +63,5 @@ def get_album_info(album_url):
         # print(f"{track}")
     print(f"Discográfica: {label}")
 
-album_url = "https://open.spotify.com/intl-es/album/2Ek1q2haOnxVqhvVKqMvJe?si=yviX1yZMRHKx3MHJkGEO_Q"  
+album_url = "https://open.spotify.com/intl-es/album/6pwuKxMUkNg673KETsXPUV?si=0yYcw2ESRZica9ckM2MqrA"  
 get_album_info(album_url)
