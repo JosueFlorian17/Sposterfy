@@ -77,23 +77,26 @@ h2 {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     overflow: hidden;
+    background-color: #4CAF50;
 }
 
-.poster_style{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.swiper {
+    width: 400px;
+    height: 600px;
+    margin-right: 5px;
+  }
+
+.swiper-slide{
     align-items: center;
-    width: 70%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    overflow: hidden;
+    justify-content: center;
 }
 
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
 
 .generate_and_download{
     display: flex;
@@ -106,4 +109,5 @@ h2 {
 
 .poster{
     width: 30%;
+    height: 100%;
 }

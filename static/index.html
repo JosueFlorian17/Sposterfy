@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="\styles\styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Sposterfy</title>
 </head>
 <body>
@@ -31,21 +32,25 @@
     <div id="style" id="style_selection">
         <h2>Estilos de posters</h2>
         <p>Selecciona el estilo de poster que más te guste para generarlo a continuación</p>
-        <div id="style_selection" class="style_selection">
-            <div id="style_selection_1" class="poster_style">
-                <img src="https://i.blogs.es/d1c834/spoti/1366_2000.jpeg">
-                <p>Estilo 1</p>
+            <div style="color: black;">
+                hola
             </div>
-            <div id="style_selection_2" class="poster_style">
-                <img src="https://i.blogs.es/d1c834/spoti/1366_2000.jpeg">
-                <p>Estilo 2</p>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="\images\poster1.jpg"></div>
+                  <div class="swiper-slide"><img src="\images\poster2.jpg"></div>
+                  <div class="swiper-slide"><img src="\images\poster3.jpg"></div>
+                  ...
+                </div>
+                <div class="swiper-pagination"></div>
+              
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <div class="swiper-scrollbar"></div>
+              </div>
             </div>
-            <div id="style_selection_3" class="poster_style">
-                <img src="https://i.blogs.es/d1c834/spoti/1366_2000.jpeg">
-                <p>Estilo 3</p>
-            </div>
-        </div>
-    </div>
+
 
 
 
@@ -63,5 +68,7 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="\scripts\scripts.js"></script>
 </body>
 </html>
